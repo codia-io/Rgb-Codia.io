@@ -1,0 +1,22 @@
+.underdev {
+  display: none;
+  visibility: hidden;
+}
+#logo {
+  width: 9rem;
+  height: auto;
+}
+#showcase {
+  background-image: url(../resources/showcase2.jpg);
+  background-size: cover;
+  height: 700px;
+}
+#main-text {
+  position: absolute;
+  top: 38%;
+  width: 100%;
+}
+
+.bg-dark-2 {
+  background-color: rgba(52, 58, 64, 0.9);
+}
