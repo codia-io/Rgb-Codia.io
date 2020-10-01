@@ -1,7 +1,12 @@
+body {
+  overflow-x: hidden;
+}
+
 .underdev {
   display: none;
   visibility: hidden;
 }
+
 #logo {
   width: 9rem;
   height: auto;
@@ -12,11 +17,23 @@
   height: 700px;
 }
 #main-text {
-  position: absolute;
-  top: 38%;
+  position: relative;
+  top: 45%;
   width: 100%;
+  text-transform: uppercase;
 }
 
 .bg-dark-2 {
   background-color: rgba(52, 58, 64, 0.9);
+}
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+.scroll-effect {
+  background: transparent;
+  transition: background 2s;
+}
+.scroll-effect-on {
+  background: rgba(0, 0, 0, 0.8);
 }
