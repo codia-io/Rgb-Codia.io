@@ -1,6 +1,10 @@
 body {
   overflow-x: hidden;
 }
+.border-bot {
+  border-bottom: solid 1px;
+  border-color: white;
+}
 
 .underdev {
   display: none;
@@ -11,10 +15,20 @@ body {
   width: 9rem;
   height: auto;
 }
+#img-logo {
+  transition: max-width 1s;
+  max-width: 150%;
+}
+
+.img-logo-on {
+  max-width: 100% !important;
+}
+
 #showcase {
   background-image: url(../resources/showcase2.jpg);
   background-size: cover;
   height: 700px;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.2);
 }
 #main-text {
   position: relative;
@@ -23,17 +37,19 @@ body {
   text-transform: uppercase;
 }
 
-.bg-dark-2 {
-  background-color: rgba(52, 58, 64, 0.9);
-}
 .navbar-fixed-top.scrolled {
   background-color: #fff !important;
   transition: background-color 200ms linear;
 }
 .scroll-effect {
   background: transparent;
-  transition: background 2s;
+  transition: background 1.5s;
 }
 .scroll-effect-on {
   background: rgba(0, 0, 0, 0.8);
+}
+
+#navBar {
+  text-transform: uppercase;
+  transition: margin-top 0.5s;
 }
