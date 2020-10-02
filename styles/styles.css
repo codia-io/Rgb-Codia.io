@@ -16,12 +16,12 @@ body {
   height: auto;
 }
 #img-logo {
-  transition: max-width 1s;
-  max-width: 150%;
+  transition: max-width 0.5s;
+  max-width: 140%;
 }
 
 .img-logo-on {
-  max-width: 100% !important;
+  max-width: 125% !important;
 }
 
 #showcase {
@@ -37,13 +37,9 @@ body {
   text-transform: uppercase;
 }
 
-.navbar-fixed-top.scrolled {
-  background-color: #fff !important;
-  transition: background-color 200ms linear;
-}
 .scroll-effect {
   background: transparent;
-  transition: background 1.5s;
+  transition: background 0.5s;
 }
 .scroll-effect-on {
   background: rgba(0, 0, 0, 0.8);
@@ -51,5 +47,7 @@ body {
 
 #navBar {
   text-transform: uppercase;
-  transition: margin-top 0.5s;
+}
+header > div {
+  transition: margin-top 0.4s;
 }
