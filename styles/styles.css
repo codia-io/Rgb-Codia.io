@@ -41,6 +41,7 @@ body {
   top: 45%;
   width: 100%;
   text-transform: uppercase;
+  transition: all 0.2s;
 }
 
 .scroll-effect {
