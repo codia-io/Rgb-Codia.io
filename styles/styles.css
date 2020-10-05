@@ -60,7 +60,10 @@ h1 {
   font-family: "Suez One", serif;
 }
 
-.btn{
+.btn {
   left: 90%;
 }
 
+#what-we-do {
+  background-color: #f6f6f6;
+}
