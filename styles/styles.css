@@ -70,7 +70,8 @@ h1 {
 }
 
 #what-we-do,
-#services {
+#creations,
+#contact-us {
     background-color: #f6f6f6;
 }
 
@@ -87,6 +88,6 @@ h1 {
 
 .gal-img:hover {
     filter: none;
-    transform: scale(1.03, 1.03);
+    transform: scale(1.07, 1.07);
 
 }
